@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testing.testNG.tests.LoginTest_DataProvi">
+        <methods>
+          <include name="doAssert"/>
+          <include name="getXpath"/>
+          <include name="doSetUp"/>
+          <include name="tearDown"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- com.testing.testNG.tests.LoginTest_DataProvi -->
+      <class name="com.testing.testNG.tests.BaseInte_DataProvi">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testing.testNG.tests.BaseInte_DataProvi -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

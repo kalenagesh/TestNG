@@ -1,6 +1,7 @@
 package com.testing.testNG.tests;
 
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterMethod;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -8,14 +9,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 
 import com.testing.testNG.utils.TestUtils;
+import com.testing.testNG.utils.TestUtils_DataProvi;
 
-public class Base_Integration {
+public class BaseInte_DataProvi {
 
 	WebDriver driver;
 	Properties prop;
-	TestUtils test = new TestUtils();
+	TestUtils_DataProvi test = new TestUtils_DataProvi();
 	
 	@BeforeSuite
 	public void doSetUp() throws IOException {
@@ -30,7 +33,11 @@ public class Base_Integration {
 		driver.get(prop.getProperty("siteUrl"));
 	}
 	
-	
+	@DataProvider
+	public Object[][] loginData() throws IOException {
+		return test.readExcelData("Login Data");
+	}
+
 	@AfterSuite
 	public void tearDown() {
 		driver.close();
