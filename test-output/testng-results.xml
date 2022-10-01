@@ -1,21 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-24T17:05:31 IST" name="Suite" finished-at="2022-09-24T17:05:33 IST" duration-ms="2162">
+  <suite started-at="2022-10-01T15:00:09 IST" name="Suite" finished-at="2022-10-01T15:00:14 IST" duration-ms="4956">
     <groups>
     </groups>
-    <test started-at="2022-09-24T17:05:31 IST" name="Test" finished-at="2022-09-24T17:05:33 IST" duration-ms="2162">
-      <class name="com.testing.testNG.tests.LoginTest_DataProvi">
-        <test-method is-config="true" signature="doSetUp()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:29 IST" name="doSetUp" finished-at="2022-09-24T17:05:31 IST" duration-ms="2233" status="PASS">
+    <test started-at="2022-10-01T15:00:09 IST" name="Test" finished-at="2022-10-01T15:00:14 IST" duration-ms="4956">
+      <class name="com.testing.testNG.tests.RegisterClass">
+        <test-method is-config="true" signature="getSetUp()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:07 IST" name="getSetUp" finished-at="2022-10-01T15:00:09 IST" duration-ms="1600" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doSetUp -->
-        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:31 IST" name="getXpath" finished-at="2022-09-24T17:05:31 IST" duration-ms="74" status="PASS">
+        </test-method> <!-- getSetUp -->
+        <test-method is-config="true" signature="goToResisterPage()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:09 IST" name="goToResisterPage" finished-at="2022-10-01T15:00:09 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToResisterPage -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:12 IST" name="getXpath" finished-at="2022-10-01T15:00:12 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getXpath -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:31 IST" name="doLogin" data-provider="loginData" finished-at="2022-09-24T17:05:31 IST" duration-ms="80" status="PASS">
+        <test-method signature="doTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:12 IST" name="doTest" data-provider="resisterData" finished-at="2022-10-01T15:00:12 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doTest -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:12 IST" name="doAssert" finished-at="2022-10-01T15:00:12 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:12 IST" name="getXpath" finished-at="2022-10-01T15:00:12 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:12 IST" name="doTest" data-provider="resisterData" finished-at="2022-10-01T15:00:12 IST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Queue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doTest -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:12 IST" name="doAssert" finished-at="2022-10-01T15:00:12 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:12 IST" name="getXpath" finished-at="2022-10-01T15:00:13 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="doTest" data-provider="resisterData" finished-at="2022-10-01T15:00:13 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8975554764]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doTest -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="doAssert" finished-at="2022-10-01T15:00:13 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="getXpath" finished-at="2022-10-01T15:00:13 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="doTest" data-provider="resisterData" finished-at="2022-10-01T15:00:13 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Queue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8975554764]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doTest -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="doAssert" finished-at="2022-10-01T15:00:13 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="getXpath" finished-at="2022-10-01T15:00:13 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="doTest" data-provider="resisterData" finished-at="2022-10-01T15:00:13 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Queue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8975554764]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doTest -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="doAssert" finished-at="2022-10-01T15:00:13 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:13 IST" name="getXpath" finished-at="2022-10-01T15:00:14 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:14 IST" name="doTest" data-provider="resisterData" finished-at="2022-10-01T15:00:14 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All are correct]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Queue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8975554764]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doTest -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:14 IST" name="doAssert" finished-at="2022-10-01T15:00:14 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.testNG.tests.RegisterClass@3059cbc]" started-at="2022-10-01T15:00:17 IST" name="tearDown" finished-at="2022-10-01T15:00:17 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.testNG.tests.RegisterClass -->
+      <class name="com.testing.testNG.tests.LoginTest_DataProvi">
+        <test-method is-config="true" signature="getSetUp()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:05 IST" name="getSetUp" finished-at="2022-10-01T15:00:07 IST" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetUp -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:09 IST" name="getXpath" finished-at="2022-10-01T15:00:09 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:09 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-01T15:00:09 IST" duration-ms="106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,15 +284,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:31 IST" name="doAssert" finished-at="2022-09-24T17:05:31 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:09 IST" name="doAssert" finished-at="2022-10-01T15:00:09 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAssert -->
-        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:31 IST" name="getXpath" finished-at="2022-09-24T17:05:32 IST" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:09 IST" name="getXpath" finished-at="2022-10-01T15:00:10 IST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getXpath -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doLogin" data-provider="loginData" finished-at="2022-09-24T17:05:32 IST" duration-ms="59" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-01T15:00:10 IST" duration-ms="94" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,15 +313,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doAssert" finished-at="2022-09-24T17:05:32 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doAssert" finished-at="2022-10-01T15:00:10 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAssert -->
-        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="getXpath" finished-at="2022-09-24T17:05:32 IST" duration-ms="44" status="PASS">
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="getXpath" finished-at="2022-10-01T15:00:10 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getXpath -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doLogin" data-provider="loginData" finished-at="2022-09-24T17:05:32 IST" duration-ms="67" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-01T15:00:10 IST" duration-ms="96" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,15 +342,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doAssert" finished-at="2022-09-24T17:05:32 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doAssert" finished-at="2022-10-01T15:00:10 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAssert -->
-        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="getXpath" finished-at="2022-09-24T17:05:32 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="getXpath" finished-at="2022-10-01T15:00:10 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getXpath -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doLogin" data-provider="loginData" finished-at="2022-09-24T17:05:32 IST" duration-ms="68" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-01T15:00:10 IST" duration-ms="101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,15 +371,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doAssert" finished-at="2022-09-24T17:05:32 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doAssert" finished-at="2022-10-01T15:00:10 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAssert -->
-        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="getXpath" finished-at="2022-09-24T17:05:32 IST" duration-ms="44" status="PASS">
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="getXpath" finished-at="2022-10-01T15:00:10 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getXpath -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doLogin" data-provider="loginData" finished-at="2022-09-24T17:05:32 IST" duration-ms="70" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-01T15:00:10 IST" duration-ms="101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,15 +400,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doAssert" finished-at="2022-09-24T17:05:32 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doAssert" finished-at="2022-10-01T15:00:10 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAssert -->
-        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="getXpath" finished-at="2022-09-24T17:05:32 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="getXpath" finished-at="2022-10-01T15:00:10 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getXpath -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doLogin" data-provider="loginData" finished-at="2022-09-24T17:05:32 IST" duration-ms="69" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-01T15:00:10 IST" duration-ms="92" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,15 +429,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doAssert" finished-at="2022-09-24T17:05:32 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doAssert" finished-at="2022-10-01T15:00:10 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAssert -->
-        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="getXpath" finished-at="2022-09-24T17:05:32 IST" duration-ms="44" status="PASS">
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="getXpath" finished-at="2022-10-01T15:00:10 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getXpath -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:32 IST" name="doLogin" data-provider="loginData" finished-at="2022-09-24T17:05:33 IST" duration-ms="1219" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:10 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-01T15:00:12 IST" duration-ms="1172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,11 +458,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:33 IST" name="doAssert" finished-at="2022-09-24T17:05:33 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:12 IST" name="doAssert" finished-at="2022-10-01T15:00:12 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAssert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@2fd1433e]" started-at="2022-09-24T17:05:34 IST" name="tearDown" finished-at="2022-09-24T17:05:34 IST" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.testNG.tests.LoginTest_DataProvi@793be5ca]" started-at="2022-10-01T15:00:14 IST" name="tearDown" finished-at="2022-10-01T15:00:17 IST" duration-ms="2433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,6 +1,7 @@
 package com.testing.testNG.utils;
 
 import com.aventstack.extentreports.ExtentReports;
+
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class ManualTestReportGen {

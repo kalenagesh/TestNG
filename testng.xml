@@ -3,11 +3,12 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-
 			<class name="com.testing.testNG.tests.LoginTest_DataProvi" />
+			<class name="com.testing.testNG.tests.RegisterClass" />
 		</classes>
 	</test> <!-- Test -->
 	<listeners>
 		<listener class-name="com.testing.testNG.utils.NGListnerReport" />
 	</listeners>
+
 </suite> <!-- Suite -->

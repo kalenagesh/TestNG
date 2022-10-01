@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testing.testNG.tests.LoginTest_DataProvi$Login_Test">
+      <class name="com.testing.testNG.tests.RegisterClass">
         <methods>
+          <include name="goToResisterPage"/>
+          <include name="doTest"/>
           <include name="getXpath"/>
-          <include name="doLogin"/>
-          <include name="doAssert"/>
           <include name="tearDown"/>
           <include name="doSetUp"/>
+          <include name="doAssert"/>
         </methods>
-      </class> <!-- com.testing.testNG.tests.LoginTest_DataProvi$Login_Test -->
+      </class> <!-- com.testing.testNG.tests.RegisterClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
